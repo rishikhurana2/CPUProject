@@ -11,7 +11,7 @@ where a0 and a1 represents the contents in register 11 and register 12 after run
 
 ./cpusim "23instMem-sw.txt"
 
-I get the output (9,17), meaning registers 11 stores the value 9, and register 12 stores the value 17 after the execution of 23instMem-sw.txt. If you want to create your own files to
+I get the output (9,17), meaning register 11 stores the value 9, and register 12 stores the value 17 after the execution of 23instMem-sw.txt. If you want to create your own files to
 run the simulator, each text file is the machine code translation of assembly files -- so you must translate your assembly file to machine code using the RISC-V instruction set.
 
 
